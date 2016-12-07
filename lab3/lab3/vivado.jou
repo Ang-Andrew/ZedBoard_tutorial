@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Dec 04 10:30:55 2016
+# Process ID: 2556
+# Current directory: C:/xup/embedded/2015_2_zynq_labs/lab3/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9328 C:\xup\embedded\2015_2_zynq_labs\lab3\lab3\lab3.xpr
+# Log file: C:/xup/embedded/2015_2_zynq_labs/lab3/lab3/vivado.log
+# Journal file: C:/xup/embedded/2015_2_zynq_labs/lab3/lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/xup/embedded/2015_2_zynq_labs/lab3/lab3/lab3.xpr
+save_project_as lab4 C:/xup/embedded/2015_2_zynq_labs/lab4/lab4 -force
+file copy -force C:/xup/embedded/2015_2_zynq_labs/lab4/lab4/lab4.runs/impl_1/system_wrapper.sysdef C:/xup/embedded/2015_2_zynq_labs/lab4/lab4/lab4.sdk/system_wrapper.hdf
+
+launch_sdk -workspace C:/xup/embedded/2015_2_zynq_labs/lab4/lab4/lab4.sdk -hwspec C:/xup/embedded/2015_2_zynq_labs/lab4/lab4/lab4.sdk/system_wrapper.hdf

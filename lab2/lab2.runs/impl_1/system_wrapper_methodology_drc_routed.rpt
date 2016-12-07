@@ -1,0 +1,147 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Thu Dec 01 23:16:23 2016
+| Host         : AndrewPC running 64-bit major release  (build 9200)
+| Command      : report_methodology -file system_wrapper_methodology_drc_routed.rpt -rpx system_wrapper_methodology_drc_routed.rpx
+| Design       : system_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: checkpoint_system_wrapper
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 22
++-----------+----------+-------------------------------------------------+------------+
+| Rule      | Severity | Description                                     | Violations |
++-----------+----------+-------------------------------------------------+------------+
+| CKLD-1    | Warning  | Clock Net has non-BUF driver and too many loads | 1          |
+| TIMING-15 | Warning  | Large hold violation on inter-clock path        | 8          |
+| TIMING-18 | Warning  | Missing input or output delay                   | 13         |
++-----------+----------+-------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CKLD-1#1 Warning
+Clock Net has non-BUF driver and too many loads  
+Clock net system_i/processing_system7_0/inst/FCLK_CLK0 is not driven by a Clock Buffer and has more than 512 loads. Driver(s): system_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+Related violations: <none>
+
+TIMING-15#1 Warning
+Large hold violation on inter-clock path  
+There is a large inter-clock skew of 1.934 ns between system_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/ar_cmd_fsm_0/state_reg[1]/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/wrap_cmd_0/wrap_cnt_r_reg[0]/D (clocked by clk_fpga_0) that results in large hold timing violation(s) of -1.148 ns. Fixing large hold violations during routing might impact setup slack and result in more difficult timing closure
+Related violations: <none>
+
+TIMING-15#2 Warning
+Large hold violation on inter-clock path  
+There is a large inter-clock skew of 1.934 ns between system_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/ar_cmd_fsm_0/state_reg[1]/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/wrap_cmd_0/wrap_second_len_r_reg[0]/D (clocked by clk_fpga_0) that results in large hold timing violation(s) of -1.071 ns. Fixing large hold violations during routing might impact setup slack and result in more difficult timing closure
+Related violations: <none>
+
+TIMING-15#3 Warning
+Large hold violation on inter-clock path  
+There is a large inter-clock skew of 2.313 ns between system_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/ar_cmd_fsm_0/state_reg[1]/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/incr_cmd_0/axlen_cnt_reg[0]/D (clocked by clk_fpga_0) that results in large hold timing violation(s) of -1.033 ns. Fixing large hold violations during routing might impact setup slack and result in more difficult timing closure
+Related violations: <none>
+
+TIMING-15#4 Warning
+Large hold violation on inter-clock path  
+There is a large inter-clock skew of 2.371 ns between system_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/transaction_fifo_0/cnt_read_reg[2]_rep__0/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/transaction_fifo_0/cnt_read_reg[2]/D (clocked by clk_fpga_0) that results in large hold timing violation(s) of -1.079 ns. Fixing large hold violations during routing might impact setup slack and result in more difficult timing closure
+Related violations: <none>
+
+TIMING-15#5 Warning
+Large hold violation on inter-clock path  
+There is a large inter-clock skew of 2.702 ns between system_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[0]/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/wrap_cmd_0/axaddr_offset_r_reg[0]/D (clocked by clk_fpga_0) that results in large hold timing violation(s) of -1.313 ns. Fixing large hold violations during routing might impact setup slack and result in more difficult timing closure
+Related violations: <none>
+
+TIMING-15#6 Warning
+Large hold violation on inter-clock path  
+There is a large inter-clock skew of 2.862 ns between system_i/ps7_0_axi_periph/xbar/inst/gen_sasd.crossbar_sasd_0/addr_arbiter_inst/gen_no_arbiter.m_amesg_i_reg[17]/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/xbar/inst/gen_sasd.crossbar_sasd_0/m_atarget_enc_reg[0]/D (clocked by clk_fpga_0) that results in large hold timing violation(s) of -1.501 ns. Fixing large hold violations during routing might impact setup slack and result in more difficult timing closure
+Related violations: <none>
+
+TIMING-15#7 Warning
+Large hold violation on inter-clock path  
+There is a large inter-clock skew of 2.862 ns between system_i/ps7_0_axi_periph/xbar/inst/gen_sasd.crossbar_sasd_0/addr_arbiter_inst/gen_no_arbiter.m_amesg_i_reg[17]/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/xbar/inst/gen_sasd.crossbar_sasd_0/m_atarget_hot_reg[0]/D (clocked by clk_fpga_0) that results in large hold timing violation(s) of -1.896 ns. Fixing large hold violations during routing might impact setup slack and result in more difficult timing closure
+Related violations: <none>
+
+TIMING-15#8 Warning
+Large hold violation on inter-clock path  
+There is a large inter-clock skew of 2.862 ns between system_i/ps7_0_axi_periph/xbar/inst/gen_sasd.crossbar_sasd_0/addr_arbiter_inst/gen_no_arbiter.m_amesg_i_reg[17]/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/xbar/inst/gen_sasd.crossbar_sasd_0/m_atarget_hot_reg[1]/D (clocked by clk_fpga_0) that results in large hold timing violation(s) of -1.885 ns. Fixing large hold violations during routing might impact setup slack and result in more difficult timing closure
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on buttons_tri_i[0] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on buttons_tri_i[1] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on buttons_tri_i[2] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on buttons_tri_i[3] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on buttons_tri_i[4] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on switches_tri_i[0] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on switches_tri_i[1] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on switches_tri_i[2] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on switches_tri_i[3] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on switches_tri_i[4] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on switches_tri_i[5] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on switches_tri_i[6] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on switches_tri_i[7] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+

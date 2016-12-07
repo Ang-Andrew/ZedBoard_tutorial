@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat Dec 03 14:44:24 2016
+# Process ID: 10648
+# Current directory: C:/xup/embedded/2015_2_zynq_labs/led_ip/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2496 C:\xup\embedded\2015_2_zynq_labs\led_ip\ip_repo\edit_led_ip_v1_0.xpr
+# Log file: C:/xup/embedded/2015_2_zynq_labs/led_ip/ip_repo/vivado.log
+# Journal file: C:/xup/embedded/2015_2_zynq_labs/led_ip/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/xup/embedded/2015_2_zynq_labs/led_ip/ip_repo/edit_led_ip_v1_0.xpr
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1

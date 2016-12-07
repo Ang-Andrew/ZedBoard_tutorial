@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat Dec 03 15:28:21 2016
+# Process ID: 6944
+# Current directory: C:/xup/embedded/2015_2_zynq_labs/led_ip/ip_repo/edit_led_ip_v1_0.runs/synth_1
+# Command line: vivado.exe -log led_ip_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source led_ip_v1_0.tcl
+# Log file: C:/xup/embedded/2015_2_zynq_labs/led_ip/ip_repo/edit_led_ip_v1_0.runs/synth_1/led_ip_v1_0.vds
+# Journal file: C:/xup/embedded/2015_2_zynq_labs/led_ip/ip_repo/edit_led_ip_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source led_ip_v1_0.tcl -notrace

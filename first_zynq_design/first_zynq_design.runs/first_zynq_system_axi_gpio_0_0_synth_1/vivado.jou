@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Dec 06 21:30:38 2016
+# Process ID: 5632
+# Current directory: C:/xup/embedded/2015_2_zynq_labs/first_zynq_design/first_zynq_design.runs/first_zynq_system_axi_gpio_0_0_synth_1
+# Command line: vivado.exe -log first_zynq_system_axi_gpio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source first_zynq_system_axi_gpio_0_0.tcl
+# Log file: C:/xup/embedded/2015_2_zynq_labs/first_zynq_design/first_zynq_design.runs/first_zynq_system_axi_gpio_0_0_synth_1/first_zynq_system_axi_gpio_0_0.vds
+# Journal file: C:/xup/embedded/2015_2_zynq_labs/first_zynq_design/first_zynq_design.runs/first_zynq_system_axi_gpio_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source first_zynq_system_axi_gpio_0_0.tcl -notrace
