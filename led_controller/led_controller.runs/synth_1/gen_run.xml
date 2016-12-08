@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1481172103">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1481177651">
   <File Type="RDS-PROPCONSTRS" Name="led_test_system_wrapper_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="led_test_system_wrapper.tcl"/>
   <File Type="RDS-RDS" Name="led_test_system_wrapper.vds"/>
@@ -50,5 +50,5 @@
   <BlockFileSet Type="BlockSrcs" Name="led_test_system_led_controller_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="led_test_system_auto_pc_0"/>
   <BlockFileSet Type="BlockSrcs" Name="led_test_system_processing_system7_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="led_test_system_rst_ps7_0_50M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="led_test_system_rst_ps7_0_100M_0"/>
 </GenRun>

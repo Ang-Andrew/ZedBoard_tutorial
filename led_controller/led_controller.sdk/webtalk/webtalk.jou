@@ -2,11 +2,11 @@
 # Webtalk v2016.3 (64-bit)
 # SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
 # 
-# Start of session at: Thu Dec 08 18:10:35 2016
-# Process ID: 8988
-# Current directory: C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.sdk/webtalk
+# Start of session at: Thu Dec 08 20:57:50 2016
+# Process ID: 8376
+# Current directory: C:/Users/Andrew/led_controller/led_controller.sdk/webtalk
 # Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
-# Log file: C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.sdk/webtalk/webtalk.log
-# Journal file: C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.sdk/webtalk\webtalk.jou
+# Log file: C:/Users/Andrew/led_controller/led_controller.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/Andrew/led_controller/led_controller.sdk/webtalk\webtalk.jou
 #-----------------------------------------------------------
 source sdk_webtalk.tcl

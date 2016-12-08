@@ -1,10 +1,10 @@
 // Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
-// Date        : Thu Dec 08 17:42:11 2016
+// Date        : Thu Dec 08 19:14:34 2016
 // Host        : AndrewPC running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_led_controller_0_0/led_test_system_led_controller_0_0_sim_netlist.v
+//               c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_led_controller_0_0/led_test_system_led_controller_0_0_sim_netlist.v
 // Design      : led_test_system_led_controller_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.

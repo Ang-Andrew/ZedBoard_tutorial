@@ -2,318 +2,41 @@
 # Vivado v2016.3 (64-bit)
 # SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
 # IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
-# Start of session at: Thu Dec 08 17:43:35 2016
-# Process ID: 11844
-# Current directory: C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1
+# Start of session at: Thu Dec 08 19:16:03 2016
+# Process ID: 14780
+# Current directory: C:/Users/Andrew/led_controller/led_controller.runs/impl_1
 # Command line: vivado.exe -log led_test_system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source led_test_system_wrapper.tcl -notrace
-# Log file: C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/led_test_system_wrapper.vdi
-# Journal file: C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1\vivado.jou
+# Log file: C:/Users/Andrew/led_controller/led_controller.runs/impl_1/led_test_system_wrapper.vdi
+# Journal file: C:/Users/Andrew/led_controller/led_controller.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
 source led_test_system_wrapper.tcl -notrace
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
-INFO: [Project 1-454] Reading design checkpoint 'c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_led_controller_0_0/led_test_system_led_controller_0_0.dcp' for cell 'led_test_system_i/led_controller_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.dcp' for cell 'led_test_system_i/processing_system7_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_50M_0/led_test_system_rst_ps7_0_50M_0.dcp' for cell 'led_test_system_i/rst_ps7_0_50M'
-INFO: [Project 1-454] Reading design checkpoint 'c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0.dcp' for cell 'led_test_system_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_led_controller_0_0/led_test_system_led_controller_0_0.dcp' for cell 'led_test_system_i/led_controller_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.dcp' for cell 'led_test_system_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0.dcp' for cell 'led_test_system_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0.dcp' for cell 'led_test_system_i/ps7_0_axi_periph/s00_couplers/auto_pc'
 INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2016.3
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24542]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[10]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24612]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[11]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24619]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[12]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24626]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[13]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24633]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[14]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24640]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24549]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24556]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24563]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24570]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[5]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24577]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[6]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24584]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[7]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24591]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[8]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24598]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Addr[9]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24605]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_BankAddr[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24648]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_BankAddr[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24655]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_BankAddr[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24662]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_CAS_n' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24368]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_CKE' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24375]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_CS_n' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24382]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Clk' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24389]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_Clk_n' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24396]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DM[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24670]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DM[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24677]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DM[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24684]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DM[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24691]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQS[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24924]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQS[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24931]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQS[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24938]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQS[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24945]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQS_n[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24953]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQS_n[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24960]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQS_n[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24967]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQS_n[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24974]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24699]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[10]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24769]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[11]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24776]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[12]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24783]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[13]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24790]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[14]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24797]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[15]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24804]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[16]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24811]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[17]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24818]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[18]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24825]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[19]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24832]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24706]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[20]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24839]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[21]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24846]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[22]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24853]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[23]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24860]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[24]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24867]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[25]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24874]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[26]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24881]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[27]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24888]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[28]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24895]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[29]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24902]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24713]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[30]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24909]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[31]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24916]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24720]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24727]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[5]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24734]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[6]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24741]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[7]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24748]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[8]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24755]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DQ[9]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24762]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_DRSTB' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24403]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_ODT' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24410]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_RAS_n' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24417]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_VRN' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24424]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_VRP' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24431]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/DDR_WEB' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24438]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/PS_CLK' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24520]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/PS_PORB' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24527]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'led_test_system_i/processing_system7_0/PS_SRSTB' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/.Xil/Vivado-11844-AndrewPC/dcp_3/led_test_system_processing_system7_0_0.edf:24534]
-Parsing XDC File [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc] for cell 'led_test_system_i/processing_system7_0/inst'
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:29]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:30]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:31]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:32]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:33]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:34]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:35]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:36]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:37]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:38]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:39]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:40]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:41]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:42]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:43]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:44]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:45]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:46]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:47]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:48]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:49]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:50]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:51]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:52]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:53]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:54]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:55]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:56]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:57]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:58]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:59]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:60]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:61]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:62]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:63]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:64]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:65]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:66]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:67]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:68]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:69]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:70]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:71]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:72]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:73]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:74]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:75]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:76]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:77]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:78]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:79]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:80]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:81]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:82]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:83]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:84]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:85]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:86]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:87]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:88]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:89]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:90]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:91]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:92]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:93]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:94]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:95]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:96]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:97]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:98]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:99]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:100]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:101]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:102]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:103]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:104]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:105]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:106]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:107]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:108]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:109]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:110]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:111]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:112]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:113]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:114]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:115]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:116]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:117]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:118]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:119]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:120]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:121]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:122]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:123]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:124]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:125]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:126]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:127]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:128]
-Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
-INFO: [Common 17-14] Message 'Netlist 29-160' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc:128]
-Finished Parsing XDC File [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc] for cell 'led_test_system_i/processing_system7_0/inst'
-Parsing XDC File [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_50M_0/led_test_system_rst_ps7_0_50M_0_board.xdc] for cell 'led_test_system_i/rst_ps7_0_50M/U0'
-Finished Parsing XDC File [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_50M_0/led_test_system_rst_ps7_0_50M_0_board.xdc] for cell 'led_test_system_i/rst_ps7_0_50M/U0'
-Parsing XDC File [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_50M_0/led_test_system_rst_ps7_0_50M_0.xdc] for cell 'led_test_system_i/rst_ps7_0_50M/U0'
-Finished Parsing XDC File [c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_50M_0/led_test_system_rst_ps7_0_50M_0.xdc] for cell 'led_test_system_i/rst_ps7_0_50M/U0'
-Parsing XDC File [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/constrs_1/new/led_constraints.xdc]
-Finished Parsing XDC File [C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/constrs_1/new/led_constraints.xdc]
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_50M_0/led_test_system_rst_ps7_0_50M_0.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0.dcp'
+Parsing XDC File [c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc] for cell 'led_test_system_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc] for cell 'led_test_system_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0_board.xdc] for cell 'led_test_system_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0_board.xdc] for cell 'led_test_system_i/rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0.xdc] for cell 'led_test_system_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0.xdc] for cell 'led_test_system_i/rst_ps7_0_100M/U0'
+Parsing XDC File [C:/Users/Andrew/led_controller/led_controller.srcs/constrs_1/new/led_constraints.xdc]
+Finished Parsing XDC File [C:/Users/Andrew/led_controller/led_controller.srcs/constrs_1/new/led_constraints.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0.dcp'
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-link_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 541.695 ; gain = 297.656
+link_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 540.609 ; gain = 296.613
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -324,64 +47,64 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.411 . Memory (MB): peak = 550.328 ; gain = 8.633
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.335 . Memory (MB): peak = 550.719 ; gain = 10.109
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Starting Logic Optimization Task
-Implement Debug Cores | Checksum: 1958ba40c
+Implement Debug Cores | Checksum: 15b89d005
 
 Phase 1 Retarget
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 1f4003a4a
+Phase 1 Retarget | Checksum: 1620a7036
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.195 . Memory (MB): peak = 1029.715 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.122 . Memory (MB): peak = 1028.957 ; gain = 0.000
 
 Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-10] Eliminated 13 cells.
-Phase 2 Constant propagation | Checksum: 105fb2bf5
+Phase 2 Constant propagation | Checksum: 1328d8d29
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.322 . Memory (MB): peak = 1029.715 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.263 . Memory (MB): peak = 1028.957 ; gain = 0.000
 
 Phase 3 Sweep
-INFO: [Opt 31-12] Eliminated 297 unconnected nets.
-INFO: [Opt 31-11] Eliminated 396 unconnected cells.
-Phase 3 Sweep | Checksum: 293f8b9b2
+INFO: [Opt 31-12] Eliminated 293 unconnected nets.
+INFO: [Opt 31-11] Eliminated 395 unconnected cells.
+Phase 3 Sweep | Checksum: 171e59283
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.683 . Memory (MB): peak = 1029.715 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.633 . Memory (MB): peak = 1028.957 ; gain = 0.000
 
 Phase 4 BUFG optimization
 INFO: [Opt 31-12] Eliminated 0 unconnected nets.
 INFO: [Opt 31-11] Eliminated 0 unconnected cells.
-Phase 4 BUFG optimization | Checksum: 1e03d79f4
+Phase 4 BUFG optimization | Checksum: b9528910
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.907 . Memory (MB): peak = 1029.715 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.862 . Memory (MB): peak = 1028.957 ; gain = 0.000
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1029.715 ; gain = 0.000
-Ending Logic Optimization Task | Checksum: 1e03d79f4
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1028.957 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: b9528910
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.926 . Memory (MB): peak = 1029.715 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.878 . Memory (MB): peak = 1028.957 ; gain = 0.000
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
-Ending Power Optimization Task | Checksum: 1e03d79f4
+Ending Power Optimization Task | Checksum: b9528910
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.072 . Memory (MB): peak = 1029.715 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1028.957 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
-30 Infos, 76 Warnings, 100 Critical Warnings and 0 Errors encountered.
+29 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1029.715 ; gain = 488.020
+opt_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1028.957 ; gain = 488.348
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1029.715 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/led_test_system_wrapper_opt.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1028.957 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Andrew/led_controller/led_controller.runs/impl_1/led_test_system_wrapper_opt.dcp' has been generated.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/led_test_system_wrapper_drc_opted.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Andrew/led_controller/led_controller.runs/impl_1/led_test_system_wrapper_drc_opted.rpt.
 INFO: [Chipscope 16-241] No debug cores found in the current design.
 Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
 or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
@@ -400,77 +123,77 @@ Starting Placer Task
 INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
 
 Phase 1 Placer Initialization
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1029.715 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1029.715 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1028.957 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1028.957 ; gain = 0.000
 
 Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: dddf56b2
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 4c217f55
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 1.2 Build Placer Netlist Model
-Phase 1.2 Build Placer Netlist Model | Checksum: 22dbd036c
+Phase 1.2 Build Placer Netlist Model | Checksum: 1a29402a7
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 1.3 Constrain Clocks/Macros
-Phase 1.3 Constrain Clocks/Macros | Checksum: 22dbd036c
+Phase 1.3 Constrain Clocks/Macros | Checksum: 1a29402a7
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1048.859 ; gain = 19.145
-Phase 1 Placer Initialization | Checksum: 22dbd036c
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1047.262 ; gain = 18.305
+Phase 1 Placer Initialization | Checksum: 1a29402a7
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 2 Global Placement
-Phase 2 Global Placement | Checksum: 19229586d
+Phase 2 Global Placement | Checksum: 1bf3221bd
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 19229586d
+Phase 3.1 Commit Multi Column Macros | Checksum: 1bf3221bd
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 22dbcb858
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 26b8c3378
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 228d60c24
+Phase 3.3 Area Swap Optimization | Checksum: 23e61a7e8
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 3.4 Pipeline Register Optimization
-Phase 3.4 Pipeline Register Optimization | Checksum: 228d60c24
+Phase 3.4 Pipeline Register Optimization | Checksum: 23e61a7e8
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 3.5 Timing Path Optimizer
-Phase 3.5 Timing Path Optimizer | Checksum: 25344e796
+Phase 3.5 Timing Path Optimizer | Checksum: 268d304d6
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 3.6 Small Shape Detail Placement
-Phase 3.6 Small Shape Detail Placement | Checksum: 27ba8b1dd
+Phase 3.6 Small Shape Detail Placement | Checksum: 1b8339fee
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 3.7 Re-assign LUT pins
-Phase 3.7 Re-assign LUT pins | Checksum: 2be5f0971
+Phase 3.7 Re-assign LUT pins | Checksum: 1e365ce36
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 3.8 Pipeline Register Optimization
-Phase 3.8 Pipeline Register Optimization | Checksum: 2be5f0971
+Phase 3.8 Pipeline Register Optimization | Checksum: 1e365ce36
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1048.859 ; gain = 19.145
-Phase 3 Detail Placement | Checksum: 2be5f0971
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1047.262 ; gain = 18.305
+Phase 3 Detail Placement | Checksum: 1e365ce36
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -478,46 +201,46 @@ Phase 4.1 Post Commit Optimization
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 Post Placement Optimization
-INFO: [Place 30-746] Post Placement Timing Summary WNS=13.788. For the most accurate timing information please run report_timing.
-Phase 4.1.1 Post Placement Optimization | Checksum: 17100cac3
+INFO: [Place 30-746] Post Placement Timing Summary WNS=3.936. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 21d1f83c0
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1048.859 ; gain = 19.145
-Phase 4.1 Post Commit Optimization | Checksum: 17100cac3
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1047.262 ; gain = 18.305
+Phase 4.1 Post Commit Optimization | Checksum: 21d1f83c0
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: 17100cac3
+Phase 4.2 Post Placement Cleanup | Checksum: 21d1f83c0
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: 17100cac3
+Phase 4.3 Placer Reporting | Checksum: 21d1f83c0
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1047.262 ; gain = 18.305
 
 Phase 4.4 Final Placement Cleanup
-Phase 4.4 Final Placement Cleanup | Checksum: 1b93836ef
+Phase 4.4 Final Placement Cleanup | Checksum: 1843bee26
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1048.859 ; gain = 19.145
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1b93836ef
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1047.262 ; gain = 18.305
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1843bee26
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1048.859 ; gain = 19.145
-Ending Placer Task | Checksum: 118db1341
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1047.262 ; gain = 18.305
+Ending Placer Task | Checksum: 94f6d506
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1048.859 ; gain = 19.145
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1047.262 ; gain = 18.305
 INFO: [Common 17-83] Releasing license: Implementation
-46 Infos, 76 Warnings, 100 Critical Warnings and 0 Errors encountered.
+45 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.119 . Memory (MB): peak = 1048.859 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/led_test_system_wrapper_placed.dcp' has been generated.
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 1048.859 ; gain = 0.000
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1048.859 ; gain = 0.000
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1048.859 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.122 . Memory (MB): peak = 1047.262 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Andrew/led_controller/led_controller.runs/impl_1/led_test_system_wrapper_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1047.262 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1047.262 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1047.262 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -529,103 +252,115 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
-Checksum: PlaceDB: cf549167 ConstDB: 0 ShapeSum: 498681da RouteDB: 0
+Checksum: PlaceDB: 92fcdce6 ConstDB: 0 ShapeSum: 1f9f820 RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: 14fc4b86a
+Phase 1 Build RT Design | Checksum: 1448116df
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1194.629 ; gain = 145.770
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1188.727 ; gain = 141.465
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: 14fc4b86a
+Phase 2.1 Create Timer | Checksum: 1448116df
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1194.629 ; gain = 145.770
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1188.727 ; gain = 141.465
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: 14fc4b86a
+Phase 2.2 Fix Topology Constraints | Checksum: 1448116df
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1194.629 ; gain = 145.770
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1188.727 ; gain = 141.465
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: 14fc4b86a
+Phase 2.3 Pre Route Cleanup | Checksum: 1448116df
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1194.629 ; gain = 145.770
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1188.727 ; gain = 141.465
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 1e0c38daa
+Phase 2.4 Update Timing | Checksum: 228ca3c3f
 
-Time (s): cpu = 00:00:25 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=13.704 | TNS=0.000  | WHS=-0.186 | THS=-12.793|
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.852  | TNS=0.000  | WHS=-0.186 | THS=-12.890|
 
-Phase 2 Router Initialization | Checksum: 1c54d91d5
+Phase 2 Router Initialization | Checksum: 268982bfe
 
-Time (s): cpu = 00:00:25 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 1fc2dfd25
+Phase 3 Initial Routing | Checksum: 1399fdef6
 
-Time (s): cpu = 00:00:25 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 77
- Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 61
  Number of Nodes with overlaps = 0
 
 Phase 4.1.1 Update Timing
-Phase 4.1.1 Update Timing | Checksum: 1793aa318
+Phase 4.1.1 Update Timing | Checksum: 197d2cd5f
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=13.078 | TNS=0.000  | WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.760  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.1 Global Iteration 0 | Checksum: b6ac02a9
+Phase 4.1 Global Iteration 0 | Checksum: 8b0d4eeb
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
-Phase 4 Rip-up And Reroute | Checksum: b6ac02a9
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 1c5943a7e
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.760  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1fbd89687
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
+Phase 4 Rip-up And Reroute | Checksum: 1fbd89687
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
-Phase 5.1 Delay CleanUp | Checksum: b6ac02a9
+Phase 5.1 Delay CleanUp | Checksum: 1fbd89687
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: b6ac02a9
+Phase 5.2 Clock Skew Optimization | Checksum: 1fbd89687
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
-Phase 5 Delay and Skew Optimization | Checksum: b6ac02a9
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
+Phase 5 Delay and Skew Optimization | Checksum: 1fbd89687
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: d94a42f7
+Phase 6.1.1 Update Timing | Checksum: 16b3aceb3
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=13.245 | TNS=0.000  | WHS=0.041  | THS=0.000  |
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.927  | TNS=0.000  | WHS=0.041  | THS=0.000  |
 
-Phase 6.1 Hold Fix Iter | Checksum: 14bf45b7d
+Phase 6.1 Hold Fix Iter | Checksum: 12cdf9b0f
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
-Phase 6 Post Hold Fix | Checksum: 14bf45b7d
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
+Phase 6 Post Hold Fix | Checksum: 12cdf9b0f
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 0.160298 %
-  Global Horizontal Routing Utilization  = 0.191853 %
+  Global Vertical Routing Utilization    = 0.157399 %
+  Global Horizontal Routing Utilization  = 0.20022 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -634,49 +369,49 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Phase 7 Route finalize | Checksum: 98906876
+Phase 7 Route finalize | Checksum: 1d37d8f39
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 98906876
+Phase 8 Verifying routed nets | Checksum: 1d37d8f39
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 1353a4c3f
+Phase 9 Depositing Routes | Checksum: 26191c2cf
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=13.245 | TNS=0.000  | WHS=0.041  | THS=0.000  |
+INFO: [Route 35-57] Estimated Timing Summary | WNS=3.927  | TNS=0.000  | WHS=0.041  | THS=0.000  |
 
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
-Phase 10 Post Router Timing | Checksum: 1353a4c3f
+Phase 10 Post Router Timing | Checksum: 26191c2cf
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1207.184 ; gain = 158.324
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1201.254 ; gain = 153.992
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
-59 Infos, 76 Warnings, 100 Critical Warnings and 0 Errors encountered.
+59 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:24 . Memory (MB): peak = 1207.184 ; gain = 158.324
+route_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 1201.254 ; gain = 153.992
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.143 . Memory (MB): peak = 1207.184 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/led_test_system_wrapper_routed.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.142 . Memory (MB): peak = 1201.254 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Andrew/led_controller/led_controller.runs/impl_1/led_test_system_wrapper_routed.dcp' has been generated.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/led_test_system_wrapper_drc_routed.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Andrew/led_controller/led_controller.runs/impl_1/led_test_system_wrapper_drc_routed.rpt.
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
-INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/led_test_system_wrapper_methodology_drc_routed.rpt.
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/Andrew/led_controller/led_controller.runs/impl_1/led_test_system_wrapper_methodology_drc_routed.rpt.
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
@@ -685,7 +420,7 @@ Command: report_power -file led_test_system_wrapper_power_routed.rpt -pb led_tes
 Running Vector-less Activity Propagation...
 
 Finished Running Vector-less Activity Propagation
-69 Infos, 76 Warnings, 100 Critical Warnings and 0 Errors encountered.
+69 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
 Command: write_bitstream -force -no_partial_bitfile led_test_system_wrapper.bit
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
@@ -703,9 +438,9 @@ Creating bitstream...
 Writing bitstream ./led_test_system_wrapper.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
-INFO: [Common 17-186] 'C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Thu Dec 08 17:44:43 2016. For additional details about this file, please refer to the WebTalk help file at D:/Programs/Vivado/Vivado/2016.3/doc/webtalk_introduction.html.
+INFO: [Common 17-186] 'C:/Users/Andrew/led_controller/led_controller.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Thu Dec 08 19:17:10 2016. For additional details about this file, please refer to the WebTalk help file at D:/Programs/Vivado/Vivado/2016.3/doc/webtalk_introduction.html.
 INFO: [Common 17-83] Releasing license: Implementation
-77 Infos, 76 Warnings, 100 Critical Warnings and 0 Errors encountered.
+77 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1565.281 ; gain = 351.297
-INFO: [Common 17-206] Exiting Vivado at Thu Dec 08 17:44:44 2016...
+write_bitstream: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1561.988 ; gain = 351.574
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 08 19:17:11 2016...

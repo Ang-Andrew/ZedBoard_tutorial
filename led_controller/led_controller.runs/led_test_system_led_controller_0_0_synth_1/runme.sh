@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/led_test_system_led_controller_0_0_synth_1'
+HD_PWD='C:/Users/Andrew/led_controller/led_controller.runs/led_test_system_led_controller_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

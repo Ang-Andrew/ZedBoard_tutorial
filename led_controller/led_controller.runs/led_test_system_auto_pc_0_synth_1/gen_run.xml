@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="led_test_system_auto_pc_0_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1481172103">
+<GenRun Id="led_test_system_auto_pc_0_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1481177651">
   <File Type="RDS-PROPCONSTRS" Name="led_test_system_auto_pc_0_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="led_test_system_auto_pc_0.tcl"/>
   <File Type="RDS-RDS" Name="led_test_system_auto_pc_0.vds"/>

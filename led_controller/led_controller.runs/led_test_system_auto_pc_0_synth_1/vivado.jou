@@ -2,11 +2,11 @@
 # Vivado v2016.3 (64-bit)
 # SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
 # IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
-# Start of session at: Thu Dec 08 17:42:17 2016
-# Process ID: 6404
-# Current directory: C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/led_test_system_auto_pc_0_synth_1
+# Start of session at: Thu Dec 08 19:14:43 2016
+# Process ID: 11440
+# Current directory: C:/Users/Andrew/led_controller/led_controller.runs/led_test_system_auto_pc_0_synth_1
 # Command line: vivado.exe -log led_test_system_auto_pc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source led_test_system_auto_pc_0.tcl
-# Log file: C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/led_test_system_auto_pc_0_synth_1/led_test_system_auto_pc_0.vds
-# Journal file: C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/led_test_system_auto_pc_0_synth_1\vivado.jou
+# Log file: C:/Users/Andrew/led_controller/led_controller.runs/led_test_system_auto_pc_0_synth_1/led_test_system_auto_pc_0.vds
+# Journal file: C:/Users/Andrew/led_controller/led_controller.runs/led_test_system_auto_pc_0_synth_1\vivado.jou
 #-----------------------------------------------------------
 source led_test_system_auto_pc_0.tcl -notrace

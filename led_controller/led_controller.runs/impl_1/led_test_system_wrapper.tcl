@@ -53,28 +53,28 @@ set rc [catch {
   set_property board_part em.avnet.com:zed:part0:1.3 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.cache/wt [current_project]
-  set_property parent.project_path C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.xpr [current_project]
-  set_property ip_repo_paths C:/xup/embedded/2015_2_zynq_labs/ip_repo/led_controller_1.0 [current_project]
-  set_property ip_output_repo C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/Andrew/led_controller/led_controller.cache/wt [current_project]
+  set_property parent.project_path C:/Users/Andrew/led_controller/led_controller.xpr [current_project]
+  set_property ip_repo_paths C:/Users/Andrew/ip_repo/led_controller_1.0 [current_project]
+  set_property ip_output_repo C:/Users/Andrew/led_controller/led_controller.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES XPM_CDC [current_project]
-  add_files -quiet C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.runs/synth_1/led_test_system_wrapper.dcp
-  add_files -quiet c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_led_controller_0_0/led_test_system_led_controller_0_0.dcp
-  set_property netlist_only true [get_files c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_led_controller_0_0/led_test_system_led_controller_0_0.dcp]
-  add_files -quiet c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.dcp
-  set_property netlist_only true [get_files c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.dcp]
-  add_files -quiet c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_50M_0/led_test_system_rst_ps7_0_50M_0.dcp
-  set_property netlist_only true [get_files c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_50M_0/led_test_system_rst_ps7_0_50M_0.dcp]
-  add_files -quiet c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0.dcp
-  set_property netlist_only true [get_files c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0.dcp]
-  read_xdc -ref led_test_system_processing_system7_0_0 -cells inst c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc
-  set_property processing_order EARLY [get_files c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc]
-  read_xdc -prop_thru_buffers -ref led_test_system_rst_ps7_0_50M_0 -cells U0 c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_50M_0/led_test_system_rst_ps7_0_50M_0_board.xdc
-  set_property processing_order EARLY [get_files c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_50M_0/led_test_system_rst_ps7_0_50M_0_board.xdc]
-  read_xdc -ref led_test_system_rst_ps7_0_50M_0 -cells U0 c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_50M_0/led_test_system_rst_ps7_0_50M_0.xdc
-  set_property processing_order EARLY [get_files c:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_50M_0/led_test_system_rst_ps7_0_50M_0.xdc]
-  read_xdc C:/xup/embedded/2015_2_zynq_labs/led_controller/led_controller.srcs/constrs_1/new/led_constraints.xdc
+  add_files -quiet C:/Users/Andrew/led_controller/led_controller.runs/synth_1/led_test_system_wrapper.dcp
+  add_files -quiet c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_led_controller_0_0/led_test_system_led_controller_0_0.dcp
+  set_property netlist_only true [get_files c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_led_controller_0_0/led_test_system_led_controller_0_0.dcp]
+  add_files -quiet c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.dcp
+  set_property netlist_only true [get_files c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.dcp]
+  add_files -quiet c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0.dcp
+  set_property netlist_only true [get_files c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0.dcp]
+  add_files -quiet c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0.dcp
+  set_property netlist_only true [get_files c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0.dcp]
+  read_xdc -ref led_test_system_processing_system7_0_0 -cells inst c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc
+  set_property processing_order EARLY [get_files c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc]
+  read_xdc -prop_thru_buffers -ref led_test_system_rst_ps7_0_100M_0 -cells U0 c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0_board.xdc
+  set_property processing_order EARLY [get_files c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0_board.xdc]
+  read_xdc -ref led_test_system_rst_ps7_0_100M_0 -cells U0 c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0.xdc
+  set_property processing_order EARLY [get_files c:/Users/Andrew/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0.xdc]
+  read_xdc C:/Users/Andrew/led_controller/led_controller.srcs/constrs_1/new/led_constraints.xdc
   link_design -top led_test_system_wrapper -part xc7z020clg484-1
   write_hwdef -file led_test_system_wrapper.hwdef
   close_msg_db -file init_design.pb
