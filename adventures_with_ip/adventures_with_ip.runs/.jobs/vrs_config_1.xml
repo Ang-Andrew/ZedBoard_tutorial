@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ip_design_processing_system7_0_0_synth_1" LaunchDir="C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ip_design_lms_pcore_0_0_synth_1" LaunchDir="C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_lms_pcore_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ip_design_nco_0_0_synth_1" LaunchDir="C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_nco_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ip_design_axi_gpio_1_0_synth_1" LaunchDir="C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_axi_gpio_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ip_design_led_controller_0_0_synth_1" LaunchDir="C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_led_controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ip_design_rst_ps7_0_100M_0_synth_1" LaunchDir="C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_rst_ps7_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ip_design_zed_audio_ctrl_0_0_synth_1" LaunchDir="C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_zed_audio_ctrl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ip_design_xbar_0_synth_1" LaunchDir="C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ip_design_axi_gpio_0_0_synth_1" LaunchDir="C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ip_design_auto_pc_0_synth_1" LaunchDir="C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="ip_design_processing_system7_0_0_synth_1"/>
+		<Parent Id="ip_design_lms_pcore_0_0_synth_1"/>
+		<Parent Id="ip_design_nco_0_0_synth_1"/>
+		<Parent Id="ip_design_axi_gpio_1_0_synth_1"/>
+		<Parent Id="ip_design_led_controller_0_0_synth_1"/>
+		<Parent Id="ip_design_rst_ps7_0_100M_0_synth_1"/>
+		<Parent Id="ip_design_zed_audio_ctrl_0_0_synth_1"/>
+		<Parent Id="ip_design_xbar_0_synth_1"/>
+		<Parent Id="ip_design_axi_gpio_0_0_synth_1"/>
+		<Parent Id="ip_design_auto_pc_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="ip_design_processing_system7_0_0_synth_1"/>
+		<Parent Id="ip_design_lms_pcore_0_0_synth_1"/>
+		<Parent Id="ip_design_nco_0_0_synth_1"/>
+		<Parent Id="ip_design_axi_gpio_1_0_synth_1"/>
+		<Parent Id="ip_design_led_controller_0_0_synth_1"/>
+		<Parent Id="ip_design_rst_ps7_0_100M_0_synth_1"/>
+		<Parent Id="ip_design_zed_audio_ctrl_0_0_synth_1"/>
+		<Parent Id="ip_design_xbar_0_synth_1"/>
+		<Parent Id="ip_design_axi_gpio_0_0_synth_1"/>
+		<Parent Id="ip_design_auto_pc_0_synth_1"/>
+	</Run>
+</Runs>
+

@@ -1,0 +1,421 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Dec 11 12:54:34 2016
+# Process ID: 12048
+# Current directory: C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_nco_0_0_synth_1
+# Command line: vivado.exe -log ip_design_nco_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ip_design_nco_0_0.tcl
+# Log file: C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_nco_0_0_synth_1/ip_design_nco_0_0.vds
+# Journal file: C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_nco_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ip_design_nco_0_0.tcl -notrace
+Command: synth_design -top ip_design_nco_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4896 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 335.320 ; gain = 126.086
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ip_design_nco_0_0' [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/synth/ip_design_nco_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'nco_top' [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco_top.v:9]
+	Parameter C_S_AXI_AXI4LITES_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_AXI4LITES_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter RESET_ACTIVE_LOW bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'nco' [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco.v:12]
+	Parameter ap_const_logic_1 bound to: 1'b1 
+	Parameter ap_const_logic_0 bound to: 1'b0 
+	Parameter ap_ST_st1_fsm_0 bound to: 1'b0 
+	Parameter ap_ST_st2_fsm_1 bound to: 1'b1 
+	Parameter ap_const_lv32_4 bound to: 4 - type: integer 
+	Parameter ap_const_lv32_F bound to: 15 - type: integer 
+	Parameter ap_true bound to: 1'b1 
+INFO: [Synth 8-638] synthesizing module 'nco_sine_lut_V' [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco_sine_lut_V.v:43]
+	Parameter DataWidth bound to: 16 - type: integer 
+	Parameter AddressRange bound to: 4096 - type: integer 
+	Parameter AddressWidth bound to: 12 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'nco_sine_lut_V_rom' [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco_sine_lut_V.v:9]
+	Parameter DWIDTH bound to: 16 - type: integer 
+	Parameter AWIDTH bound to: 12 - type: integer 
+	Parameter MEM_SIZE bound to: 4096 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nco_sine_lut_V_rom.dat' is read successfully [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco_sine_lut_V.v:24]
+INFO: [Synth 8-256] done synthesizing module 'nco_sine_lut_V_rom' (1#1) [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco_sine_lut_V.v:9]
+INFO: [Synth 8-256] done synthesizing module 'nco_sine_lut_V' (2#1) [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco_sine_lut_V.v:43]
+INFO: [Synth 8-226] default block is never used [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco.v:98]
+INFO: [Synth 8-256] done synthesizing module 'nco' (3#1) [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco.v:12]
+INFO: [Synth 8-638] synthesizing module 'nco_AXI4LiteS_if' [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco_AXI4LiteS_if.v:9]
+	Parameter C_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_BITS bound to: 5 - type: integer 
+	Parameter ADDR_SINE_SAMPLE_V_CTRL bound to: 5'b10000 
+	Parameter ADDR_SINE_SAMPLE_V_DATA_0 bound to: 5'b10100 
+	Parameter ADDR_STEP_SIZE_V_CTRL bound to: 5'b11000 
+	Parameter ADDR_STEP_SIZE_V_DATA_0 bound to: 5'b11100 
+	Parameter WRIDLE bound to: 2'b00 
+	Parameter WRDATA bound to: 2'b01 
+	Parameter WRRESP bound to: 2'b10 
+	Parameter RDIDLE bound to: 2'b00 
+	Parameter RDDATA bound to: 2'b01 
+INFO: [Synth 8-155] case statement is not full and has no default [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco_AXI4LiteS_if.v:184]
+INFO: [Synth 8-256] done synthesizing module 'nco_AXI4LiteS_if' (4#1) [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco_AXI4LiteS_if.v:9]
+INFO: [Synth 8-638] synthesizing module 'nco_ap_rst_if' [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco_ap_rst_if.v:10]
+	Parameter RESET_ACTIVE_LOW bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'nco_ap_rst_if' (5#1) [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco_ap_rst_if.v:10]
+INFO: [Synth 8-256] done synthesizing module 'nco_top' (6#1) [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ipshared/9b20/hdl/verilog/nco_top.v:9]
+INFO: [Synth 8-256] done synthesizing module 'ip_design_nco_0_0' (7#1) [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/synth/ip_design_nco_0_0.v:57]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[31]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[30]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[29]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[28]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[27]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[26]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[25]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[24]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[23]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[22]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[21]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[20]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[19]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[18]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[17]
+WARNING: [Synth 8-3331] design nco_AXI4LiteS_if has unconnected port WDATA[16]
+WARNING: [Synth 8-3331] design nco_sine_lut_V has unconnected port reset
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 372.609 ; gain = 163.375
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 372.609 ; gain = 163.375
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/constraints/nco_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/constraints/nco_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_nco_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_nco_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 695.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module nco_sine_lut_V_rom 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module nco 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module nco_AXI4LiteS_if 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[31]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[30]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[29]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[28]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[27]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[26]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[25]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[24]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[23]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[22]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[21]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[20]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[19]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[18]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[17]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WDATA[16]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WSTRB[3]
+WARNING: [Synth 8-3331] design nco_top has unconnected port s_axi_AXI4LiteS_WSTRB[2]
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[16]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[17]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[17]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[18]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[18]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[19]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[19]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[20]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[20]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[21]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[21]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[22]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[23]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[24]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[24]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[25]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[25]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[26]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[26]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[27]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[27]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[28]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[28]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[29]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[29]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[30]'
+INFO: [Synth 8-3886] merging instance 'inst/nco_AXI4LiteS_if_U/rdata_reg[30]' (FDE) to 'inst/nco_AXI4LiteS_if_U/rdata_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\nco_AXI4LiteS_if_U/rdata_reg[31] )
+WARNING: [Synth 8-3332] Sequential element (nco_AXI4LiteS_if_U/rdata_reg[31]) is unused and will be removed from module nco_top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------------+------------------------------------------------+---------------+----------------+
+|Module Name        | RTL Object                                     | Depth x Width | Implemented As | 
++-------------------+------------------------------------------------+---------------+----------------+
+|nco_sine_lut_V_rom | q0_reg                                         | 4096x16       | Block RAM      | 
+|nco_top            | nco_U/sine_lut_V_U/nco_sine_lut_V_rom_U/q0_reg | 4096x16       | Block RAM      | 
++-------------------+------------------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance inst/nco_U/sine_lut_V_U/nco_sine_lut_V_rom_U/q0_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/nco_U/sine_lut_V_U/nco_sine_lut_V_rom_U/q0_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY4     |     8|
+|2     |LUT1       |     3|
+|3     |LUT2       |    36|
+|4     |LUT3       |    34|
+|5     |LUT4       |     3|
+|6     |LUT5       |     2|
+|7     |LUT6       |     3|
+|8     |RAMB36E1   |     1|
+|9     |RAMB36E1_1 |     1|
+|10    |FDRE       |    58|
++------+-----------+------+
+
+Report Instance Areas: 
++------+-----------------------------+-------------------+------+
+|      |Instance                     |Module             |Cells |
++------+-----------------------------+-------------------+------+
+|1     |top                          |                   |   149|
+|2     |  inst                       |nco_top            |   149|
+|3     |    nco_AXI4LiteS_if_U       |nco_AXI4LiteS_if   |   108|
+|4     |    nco_U                    |nco                |    41|
+|5     |      sine_lut_V_U           |nco_sine_lut_V     |    19|
+|6     |        nco_sine_lut_V_rom_U |nco_sine_lut_V_rom |    19|
++------+-----------------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 695.438 ; gain = 486.203
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 19 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 695.438 ; gain = 113.145
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 695.438 ; gain = 486.203
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/constraints/nco_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/constraints/nco_ooc.xdc] for cell 'inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+46 Infos, 36 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 695.438 ; gain = 435.973
+INFO: [Common 17-1381] The checkpoint 'C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_nco_0_0_synth_1/ip_design_nco_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/ip_design_nco_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 5 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/xup/embedded/2015_2_zynq_labs/adventures_with_ip/adventures_with_ip.runs/ip_design_nco_0_0_synth_1/ip_design_nco_0_0.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 695.438 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 11 12:54:57 2016...
