@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# 
+# Start of session at: Mon Dec 12 20:09:59 2016
+# Process ID: 15008
+# Current directory: C:/xup/embedded/2015_2_zynq_labs/embedded_centric_lab_1/embedded_centric_lab_1.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/xup/embedded/2015_2_zynq_labs/embedded_centric_lab_1/embedded_centric_lab_1.sdk/webtalk/webtalk.log
+# Journal file: C:/xup/embedded/2015_2_zynq_labs/embedded_centric_lab_1/embedded_centric_lab_1.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
